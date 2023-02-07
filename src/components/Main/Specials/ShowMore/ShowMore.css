@@ -1,0 +1,50 @@
+#show-more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(77, 77, 77);
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#show-more p{
+    font-family: 'Black Ops One', cursive;
+    font-size: 2rem;
+    color: white;
+}
+
+#left{
+    text-shadow: 5px 3px 5px rgb(226, 226, 48);
+}
+#right{
+    text-shadow: -5px 3px 5px rgb(226, 226, 48);
+}
+
+#arrcontainer{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    height: 30px;
+    width: fit-content;
+    background-color: transparent;
+}
+
+#arrow{
+    background-color: transparent;
+    transform: rotate(45deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: " ";
+    border: 10px solid white;
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top:-40px;
+}
+
+#show-more:hover{
+    opacity: 0.8;
+}

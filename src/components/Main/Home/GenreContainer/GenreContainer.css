@@ -1,0 +1,61 @@
+#genre-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 310px;
+}
+
+#type-body{
+    display: flex;
+    gap: 20px;
+    background-color: rgb(77, 77, 77);
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    overflow: auto;
+    padding: 10px 15px;
+    position: relative;
+    top: -20px;
+    z-index: 1;
+    border-radius: 5px;
+    scroll-behavior:auto;
+}
+
+#type-body::-webkit-scrollbar{
+    cursor: pointer;
+    height:5px;
+    position: absolute;
+    background-color: rgb(77, 77, 77);
+    border-radius: 10px;
+}
+
+#type-body::-webkit-scrollbar-thumb{
+    width: auto;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+#type-header h1{
+    color: white;
+    font-family: 'Black Ops One', cursive;
+    display: inline-flex;
+    position: relative;
+    font-style: oblique;
+    font-size: 4rem;
+    padding: 5px 10px;
+    background-color: rgb(77, 77, 77);
+    text-shadow: 3px 3px 5px rgb(226, 226, 48);
+    -webkit-text-stroke: 1px black;
+    z-index: 2;
+    border-radius: 5px;
+}
+
+
+#type-header h1:hover{
+    text-shadow: 3px 3px 5px rgb(226, 137, 48);
+}
+@media (max-width: 800px){
+    #type-header h1{
+        font-size: 2.5rem;
+    }
+}

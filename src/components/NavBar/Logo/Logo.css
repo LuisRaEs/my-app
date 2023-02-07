@@ -1,0 +1,18 @@
+.navbar figure a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar figure a img{
+    border-radius: 50%;
+    height: 40px;
+    background-color: antiquewhite;
+}
+
+.navbar figure a figcaption{
+    color: antiquewhite;
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: fantasy;
+    font-style: italic;
+}

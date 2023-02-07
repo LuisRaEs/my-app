@@ -1,0 +1,24 @@
+.menu {
+    justify-self: right;
+    display: inline-flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.menu a, span{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5rem;
+    color: antiquewhite;
+    padding: 5px;
+}
+
+
+
+.menu a:hover{
+    background-color: antiquewhite;
+    border-radius: 5px;
+    color: black;
+}
+

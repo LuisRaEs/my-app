@@ -1,0 +1,16 @@
+*{
+    font-size: 10px;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+body{
+    background-color: black;
+}
+
+.app{
+    margin: auto;
+    height: 100vh;
+    width: 100vw;
+}

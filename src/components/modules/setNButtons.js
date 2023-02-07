@@ -1,0 +1,3 @@
+const setNButtons = (array, index)=>{
+    
+}

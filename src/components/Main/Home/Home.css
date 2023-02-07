@@ -1,0 +1,12 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    min-height: 100%;
+    padding: 20px 0;
+}
+
+#extra{
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+table{
+    width: 80%;
+
+    
+}
+
+
+th, td {
+    font-family: fantasy;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    width: 33.33%;
+    text-align: center;
+    color: antiquewhite;
+}

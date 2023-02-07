@@ -1,0 +1,20 @@
+.check p{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    height: 30px;
+    width: 30px;
+    border: 1.5px solid black; 
+    text-align: center;
+    border-radius: 5px;
+}
+
+.yes{
+    background-color: greenyellow;
+    -webkit-text-stroke: 1px rgb(18, 194, 18);
+}
+
+.not{
+    background-color: red;
+    -webkit-text-stroke: 1px rgb(209, 43, 43);
+}
