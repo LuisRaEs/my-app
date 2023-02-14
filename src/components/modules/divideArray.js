@@ -1,4 +1,4 @@
- export const divideArray=(array=[{el:0},{el:1}])=>{
+ export const divideArray = (array)=>{
     let arraycopy = [...array]
     const slen = 32
     const times = Math.floor(arraycopy.length/slen)

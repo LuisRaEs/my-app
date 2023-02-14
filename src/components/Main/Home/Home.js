@@ -11,7 +11,6 @@ export function Home() {
   const [cant,setCant] =useState(5)
   useEffect(()=>{
     const response = findGenre(db)
-    console.log(response);
     setGenres(response)
   },[])
 

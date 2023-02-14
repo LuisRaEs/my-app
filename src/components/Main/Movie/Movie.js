@@ -38,7 +38,7 @@ export function Movie() {
                 Object.keys(detail).map(el=>{
                   if(el!=="Ratings" && el!=="Title" && el!=="Poster" &&el!=="Response" && !el.includes("imdb") && detail[el]!=="N/A" && detail[el]!=="None")
                       return(
-                        <p>
+                        <p key ={el} >
                           <strong>{el}:</strong> {detail[el]}
                         </p>
                       )

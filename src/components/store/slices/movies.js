@@ -345,7 +345,6 @@ const moviesSlice = createSlice({
 			state.loading = true
 		},
 		[gamfulfilled]:(state,action)=>{
-			console.log(action.payload);
 			state.db = action.payload
 			state.loading = false
 		},
